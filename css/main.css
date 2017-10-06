@@ -1,0 +1,269 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+a {
+  color: #365899;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.left-content {
+  width: 579px;
+  float: left;
+}
+
+.right-content {
+  width: 400px;
+  float: right;
+}
+
+.top-blue {
+  background-color: #365998;
+  height: 60px;
+  padding: 15px 0 5px 0;
+}
+
+.top-blue .logo {
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.top-blue label {
+  color: #fff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.top-blue input.email,
+input.password {
+  border: 1px solid #bdc7d8;
+  margin: 0;
+  width: 142px;
+  padding: 3px;
+  margin-right: 15px;
+}
+
+.top-blue .button {
+  border: 0;
+  color: #fff;
+  background: #4267b2;
+  border-color: #29487d;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 25px;
+  white-space: nowrap;
+}
+
+.top-blue a.forgotten-password {
+  color: #9cb4d8;
+  font-weight: normal;
+  display: inline-block;
+  text-decoration: none;
+  padding: 6px 0;
+}
+
+.main-content {
+  padding-top: 50px;
+  min-height: 600px;
+  background: linear-gradient(white, #D3D8E8);
+  clear: both;
+}
+
+.main-content .left-content h3 {
+  font-size: 20px;
+  color: #0e385f;
+}
+
+.main-content .right-content .heading {
+  font-size: 36px;
+  color: #333;
+}
+
+.main-content .right-content .tagline {
+  font-size: 19px;
+  color: #1d2129;
+  margin-top: 10px;
+}
+
+.main-content .right-content .sign-up-form {
+  margin-top: 20px;
+}
+
+.main-content .right-content input {
+  width: 377px;
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  border: 1px solid #bdc7d8;
+}
+
+.main-content .right-content input.small {
+  width: 172px;
+}
+
+.main-content .right-content input.left {
+  margin-left: 5px;
+}
+
+.main-content .right-content .select-holder {
+  margin: 10px 0 0 5px;
+}
+
+.main-content .right-content .radio-holder {
+  margin: 10px 0 0 5px;
+}
+
+.main-content .right-content label {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 18px;
+  padding: 0 30px 0 0;
+  margin-left: -31px;
+}
+
+.main-content .right-content select {
+  border: 1px solid #bdc7d8;
+  box-sizing: border-box;
+  color: black;
+  background-color: white;
+  height: 30px;
+  padding: 5px 10px;
+  text-indent: 0px;
+  display: inline-block;
+  margin-left: -5px;
+}
+
+.main-content .right-content .radio-holder {
+  display: inline-block;
+  padding: 5px 0 5px 4px;
+  vertical-align: middle;
+}
+
+.main-content .right-content input[type=radio] {
+  width: 20px;
+  margin-left: 20px;
+}
+
+.main-content .small-gray {
+  color: #777;
+  font-size: 11px;
+  width: 316px;
+  margin-top: 20px;
+}
+
+.main-content .info {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.main-content .info a {
+  color: #365899;
+  text-decoration: none;
+}
+
+.green-button {
+  padding: 7px 20px;
+  text-align: center;
+  background-color: #69a74e;
+  border: #69a74e;
+  font-size: 18px;
+  margin: 30px 0;
+  color: white;
+}
+
+.left-content.connect {
+  padding-right: 80px;
+  width: 500px;
+}
+
+.footer {
+  margin-top: 30px;
+}
+
+.footer table a {
+  line-height: 20px;
+  display: inline-block;
+  padding-right: 25px;
+}
+
+.footer .copyright {
+  font-size: 11px;
+  color: #737373;
+  margin: 30px 0 40px;
+}
